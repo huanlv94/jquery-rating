@@ -9,7 +9,7 @@ The original jQuery plugin is http://antenna.io/demo/jquery-bar-rating/examples/
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'jquery-bar-rating'
+gem 'jquery-bar-rating', git: 'https://github.com/lehuan94cntt/jquery-rating.git'
 ```
 
 And then execute:
@@ -30,8 +30,16 @@ In your javascript file include the following
 
 And stylesheet
 
+`If you use scss`
+
 ```ruby
- *= require jquery-bar-rating
+  @import "jquery-bar-rating";
+```
+
+`or`
+
+```ruby
+  *= require jquery-bar-rating
 ```
 
 
